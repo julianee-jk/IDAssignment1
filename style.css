@@ -6,7 +6,7 @@
 body, html{
 	height: 100%;
 	margin: 0;
-	background-color: black;
+	background-color: #000000;
 	scroll-behavior: smooth;
 }
 
@@ -23,7 +23,7 @@ header{
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
-	padding: 20px 15px 10px;
+	padding: 20px 15px 10px 15px;
 	background-color: rgba(0, 0, 0, 0.685);
 }
 
@@ -52,6 +52,40 @@ header{
 
 /* Image containers */
 
+#mainbg {
+	display: flex;
+	background-image: url("images/chainsmokers.jpg"); 
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	opacity: 50%;
+	height: 86vh;
+}
+
+/* Navigate arrow down */
+
+#arrowdown {
+	position: absolute;
+	left: 47.8%;
+	top: 90vh;
+	z-index: 1;
+	height: 60px;
+	width: 60px;
+}
+
+#latestnews {
+	position: absolute;
+	height: 100%;
+	width: 100%;
+	background-image: url(images/blackbackground.jpg);
+}
+
+.latesttext {
+	text-align: center;
+	font-family: 'Alatsi', sans-serif;
+	color: #FFFFFF;
+	font-size: 40px;
+}
 /* Form */
 
 /* Other */
