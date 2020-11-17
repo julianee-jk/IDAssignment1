@@ -6,12 +6,13 @@
 body, html{
 	height: 100%;
 	margin: 0;
-	background-color: #000000;
 	scroll-behavior: smooth;
+	background-image: linear-gradient(rgb(0, 0, 0), rgb(27, 27, 27), rgb(0, 0, 0));
+	width: 100%;
 }
 
 /* Menu bar */
-li, a{
+li, a, button{
 	font-family: 'Alatsi', sans-serif;
 	font-weight: 400;
 	font-size: 20px;
@@ -19,12 +20,15 @@ li, a{
 	text-decoration: none;
 }
 
+button {
+	background-color: black;
+	cursor: pointer;
+}
 header{
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
-	padding: 20px 15px 10px 15px;
-	background-color: rgba(0, 0, 0, 0.685);
+	padding: 20px 100px 10px 20px;
 }
 
 .logo{
@@ -39,7 +43,7 @@ header{
 
 .nav_links li{
 	display: inline-block; /*Side by side*/
-	padding: 0px 20px; /*0px top, 20px right*/
+	padding: 0px 15px; /*0px top, 20px right*/
 }
 
 .nav_links li a{
@@ -58,34 +62,83 @@ header{
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
-	opacity: 50%;
+	opacity: 60%;
 	height: 86vh;
 }
+
+.mainbg-text {
+	position: absolute;
+	left: 0;
+	top: 49%;
+	width: 100%;
+	text-align: center;
+	color: #000;
+}
+.mainbg-text span.border {
+	background-color: #000;
+	color: #fff;
+	padding: 18px;
+	font-size: 25px;
+	letter-spacing: 10px;
+	font-family: 'Alatsi', sans-serif;
+}
+
 
 /* Navigate arrow down */
 
 #arrowdown {
 	position: absolute;
-	left: 47.8%;
+	left: 48.5%;
 	top: 90vh;
 	z-index: 1;
-	height: 60px;
-	width: 60px;
+	height: 30px;
+	width: 50px;
 }
 
-#latestnews {
-	position: absolute;
-	height: 100%;
+/* Latest News Section */
+#latestalbum {
+	height: 100vh;
 	width: 100%;
-	background-image: url(images/blackbackground.jpg);
 }
 
 .latesttext {
+	position: relative;
+	top: 40px;
 	text-align: center;
 	font-family: 'Alatsi', sans-serif;
 	color: #FFFFFF;
 	font-size: 40px;
 }
+
+.latestimg-container { 
+	display: flex;
+	justify-content: center;
+	padding: 30px;
+}
+#latestimg {
+	height: 600px;
+	width: 600px;
+}
+
+/* Link Buttons */
+.songbtn-container {
+	display: flex;
+	justify-content: center;
+}
+.songbtn {
+	width: 100px;
+	height: 40px;
+	padding: 0 0 10px 10px;
+}
+
+/* Footer */
+footer{
+	background-color:white;
+	width: 100%;
+	height: 20vh;
+	margin-top: 13vh;
+}
+
 /* Form */
 
 /* Other */
