@@ -1,6 +1,6 @@
 @charset "utf-8";
 /* Import fonts */
-@import url('https://fonts.googleapis.com/css2?family=Chelsea+Market&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alatsi&family=Chelsea+Market&display=swap');
 
 /* Main body background */
 body, html{
@@ -51,20 +51,10 @@ header{
 }
 
 .nav_links li a:hover{
-	color: #426c8f;
+	color: #7c4379;
 }
 
 /* Image containers */
-
-#mainbg {
-	display: flex;
-	background-image: url("images/chainsmokers.jpg"); 
-	background-position: center;
-	background-repeat: no-repeat;
-	background-size: cover;
-	opacity: 60%;
-	height: 86vh;
-}
 
 .mainbg-text {
 	position: absolute;
@@ -80,9 +70,8 @@ header{
 	padding: 18px;
 	font-size: 25px;
 	letter-spacing: 10px;
-	font-family: 'Chelsea Market', cursive;
+	font-family: 'Alatsi', sans-serif;
 }
-
 
 /* Navigate arrow down */
 
@@ -95,6 +84,17 @@ header{
 	width: 50px;
 }
 
+/* Index page */
+#mainbg {
+	display: flex;
+	background-image: url("images/chainsmokers_indexbg.jpg"); 
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+	opacity: 60%;
+	height: 86vh;
+}
 /* Latest News Section */
 #latestalbum {
 	height: 100vh;
@@ -115,6 +115,7 @@ header{
 	justify-content: center;
 	padding: 30px;
 }
+
 #latestimg {
 	height: 600px;
 	width: 600px;
@@ -125,27 +126,46 @@ header{
 	display: flex;
 	justify-content: center;
 }
+
 .songbtn {
 	width: 100px;
 	height: 40px;
-	padding: 0 0 10px 10px;
+	margin-left: 0.7em;
+	cursor: pointer;
+}
+
+/* About Page */
+#aboutbg {
+	display: flex;
+	background-image: url("images/chainsmokers_aboutbg.jpg"); 
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+	opacity: 60%;
+	height: 86vh;
 }
 
 /* Footer */
 footer{
+	display: flex;
 	background-color:black;
-	width: 100%;
-	height: 20vh;
-	margin-top: 13vh;
+	margin-top: 6.5em;
+	padding: 0.5em;
 	color: white;
-	display: inline-block;
-	text-align: center;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+
+.sociallinks {
+	margin-top: 40px;
 }
 
 .logosize {
 	width: 30px;
 	height: 30px;
-	padding: 40px 10px 0px 10px;
+	margin: 0px 10px 0px 10px;
 }
 /* Form */
 
