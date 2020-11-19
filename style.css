@@ -2,7 +2,7 @@
 /* Import fonts */
 @import url('https://fonts.googleapis.com/css2?family=Alatsi&family=Chelsea+Market&display=swap');
 
-/* Main body background */
+/* Overall body background */
 body, html{
 	height: 100%;
 	margin: 0;
@@ -11,7 +11,8 @@ body, html{
 	width: 100%;
 }
 
-/* Menu bar */
+/* Main Navigation Bar */
+
 li, a, button{
 	font-family: 'Chelsea Market', cursive;
 	font-weight: 400;
@@ -21,8 +22,12 @@ li, a, button{
 }
 
 button {
-	background-color: black;
+	background-color: rgb(59, 59, 59);
 	cursor: pointer;
+}
+
+button:hover {
+	color: #9b5d96;
 }
 header{
 	display: flex;
@@ -52,6 +57,17 @@ header{
 
 .nav_links li a:hover{
 	color: #7c4379;
+}
+/* Index page */
+#mainbg {
+	display: flex;
+	background-image: url("images/chainsmokers_indexbg.jpg"); 
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position:center;
+	background-attachment: fixed;
+	opacity: 60%;
+	height: 86vh;
 }
 
 /* Image containers */
@@ -84,17 +100,6 @@ header{
 	width: 50px;
 }
 
-/* Index page */
-#mainbg {
-	display: flex;
-	background-image: url("images/chainsmokers_indexbg.jpg"); 
-	background-position: center;
-	background-repeat: no-repeat;
-	background-size: cover;
-	background-attachment: fixed;
-	opacity: 60%;
-	height: 86vh;
-}
 /* Latest News Section */
 #latestalbum {
 	height: 100vh;
@@ -146,6 +151,73 @@ header{
 	height: 86vh;
 }
 
+#about_area {
+	margin-top: 3em;
+}
+
+.about_img {
+	width: 400px;
+	height: 400px;
+}
+
+.about_tcs {
+	display: flex;
+	margin: 1em 12em 0 12em;
+}
+
+.about_text {
+	color: white;
+	font-size: 1.1em;
+}
+
+/* Split class to seperate image & text */
+.split {
+	padding: 3em;
+}
+
+/* Name style for nammes */
+.namestyle {
+	color: rgb(140, 3, 194);
+	font-size: 2em;
+	text-align: center;
+}
+
+/* Alex Suit Image */
+#aleximg {
+	width: 270px;
+	height: 500px;
+}
+
+/* Andrew Suit Image */
+#andrewimg {
+	width: 250px;
+	height: 500px;
+}
+
+/* To give exact properties to info*/
+.infotext {
+	color: white;
+	font-size: 1.1em;
+	padding: 0 1.5em 0 4em;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+}
+
+.infotext > h4 {
+	color: rgb(138, 123, 138);
+	font-style: italic;
+}
+
+@media only screen and (max-width: 600px) {
+	.about_tcs{
+		display: flex;
+		flex-direction: column;
+	}
+}
+
+/* Music Page */
 /* Footer */
 footer{
 	display: flex;
