@@ -1,7 +1,7 @@
 @charset "utf-8";
 /* Import fonts */
-@import url('https://fonts.googleapis.com/css2?family=Alatsi&family=Chelsea+Market&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Londrina+Solid:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
 /* Overall body background */
 body, html{
 	height: 100%;
@@ -14,9 +14,10 @@ body, html{
 /* Main Navigation Bar */
 
 li, a, button{
-	font-family: 'Chelsea Market', cursive;
+	font-family: 'Londrina Solid', cursive;
+	letter-spacing: 1.8px;
 	font-weight: 400;
-	font-size: 20px;
+	font-size: 21px;
 	color: #edf0f1;
 	text-decoration: none;
 }
@@ -38,7 +39,7 @@ header{
 
 .logo{
 	cursor: pointer;
-	width: 350px;
+	width: 320px;
 	height: 70px;
 }
 
@@ -110,7 +111,8 @@ header{
 	position: relative;
 	top: 40px;
 	text-align: center;
-	font-family: 'Chelsea Market', cursive;
+	font-family: 'Londrina Solid', cursive;
+	letter-spacing: 1.8px;
 	color: #FFFFFF;
 	font-size: 40px;
 }
@@ -168,6 +170,7 @@ header{
 .about_text {
 	color: white;
 	font-size: 1.1em;
+	font-family: 'Open Sans', sans-serif;
 }
 
 /* Split class to seperate image & text */
@@ -180,7 +183,9 @@ header{
 	color: rgb(140, 3, 194);
 	font-size: 2em;
 	text-align: center;
-	font-family: 'Chelsea Market', cursive;
+	font-family: 'Londrina Solid', cursive;
+	letter-spacing: 1.8px;
+	font-weight: 400;
 }
 
 /* Alex Suit Image */
@@ -199,11 +204,12 @@ header{
 .infotext {
 	color: white;
 	font-size: 1.1em;
-	padding: 0 1.5em 0 4em;
+	padding: 0 1.5em 0 1.5em;
 	display: flex;
 	align-items: center;
 	justify-content: center;
 	text-align: center;
+	font-family: 'Open Sans', sans-serif;
 }
 
 .infotext > h4 {
@@ -230,9 +236,53 @@ header{
 	height: 86vh;
 }
 
+#albums_sec {
+	margin: 5em 0 3em 0;
+}
 
-  
+/* Album Cards */
+.container{
+	padding: 0 0 10em 0;
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    
+}
+.box > a > img{
+    width:100%;
+	height:auto;
+	border-radius: 9.8%;
+}
+.box{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    max-width:10rem;
+    min-width:18rem;
+    margin: 10px;
+	text-align: center;
+	background-color: rgb(0, 0, 0);
+	border-radius: 10%;
+	cursor: pointer;
+	border: 3px solid white;
+	transition: transform 0.5s;
+}
 
+.box > h3 {
+	color: white;
+	font-family: 'Londrina Solid', cursive;
+	letter-spacing: 1.8px;
+}
+
+.box:hover {
+	transform: translateY(-10px);
+	opacity: 0.8;
+}
+
+/* #SELFIE Where it all started */
 
 /* Footer */
 footer{
