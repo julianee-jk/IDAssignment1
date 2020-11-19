@@ -58,7 +58,7 @@ header{
 .nav_links li a:hover{
 	color: #7c4379;
 }
-/* Index page */
+/* ------------- Index page ------------- */
 #mainbg {
 	display: flex;
 	background-image: url("images/chainsmokers_indexbg.jpg"); 
@@ -139,7 +139,7 @@ header{
 	cursor: pointer;
 }
 
-/* About Page */
+/* ------------- About Page ------------- */
 #aboutbg {
 	display: flex;
 	background-image: url("images/chainsmokers_aboutbg.jpg"); 
@@ -180,6 +180,7 @@ header{
 	color: rgb(140, 3, 194);
 	font-size: 2em;
 	text-align: center;
+	font-family: 'Chelsea Market', cursive;
 }
 
 /* Alex Suit Image */
@@ -217,7 +218,22 @@ header{
 	}
 }
 
-/* Music Page */
+/* ------------- Music Page ------------- */
+#musicbg {
+	display: flex;
+	background-image: url("images/chainsmokers_musicbg.jpg"); 
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+	opacity: 60%;
+	height: 86vh;
+}
+
+
+  
+
+
 /* Footer */
 footer{
 	display: flex;
