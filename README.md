@@ -6,7 +6,7 @@ This website is a remake of the official Chainsmoker's website. The Chainsmokers
 
 Therefore, this project is to focus on optimizing the website to allow new users to navigate through the pages and to look for more information/latest news on the duo easily.
 
-## The user audience intent and purpose
+## Design Process
 
 * Newcomers
     * They will be able to learn about the duo on their "About" webpage. For example, the history of the iconic duo, how did it all started, their older music albums or more about each of the duo.
@@ -18,6 +18,7 @@ Therefore, this project is to focus on optimizing the website to allow new users
 
 * Media & General Public
     * Check out the social media of the Chainsmokers to reach out to them.
+    * Check out their old to new albums and learn more about the duo.
 
 ## Features
 These are the current features and pages of my website as well as the additional features I plan to add in the future.
@@ -25,16 +26,16 @@ These are the current features and pages of my website as well as the additional
 ### Existing Features
 All the webpages share the same designs for the header page and footer. They also have parallax image backgrounds and texts that relate to the page.
 
-* Homepage - Index Page
+* **Homepage - Index Page**
     * Arrow down on background image to scroll down on click
     * Have "Listen On" buttons to listen to Latest Album
-* About Page
+* **About Page**
     * Arrow down on background image to scroll down on click
     * About The Chainsmokers Duo
     * "LISTEN NOW" button which links to Music Page
     * About Alex Pall
     * About Andrew Taggart
-* Music Page
+* **Music Page**
     * Arrow down on background image to scroll down on click
     * Clickable button cards of each Albums
     * Embedded Spotify playlists for Best Of and Remixes
@@ -43,7 +44,7 @@ All the webpages share the same designs for the header page and footer. They als
 * Animation for Image in About Page
 * Navigation Bar animation when hover
 * Improve Footer Layout
-* Update more pages
+* Add the Store & Login form
 
 ## Technology Used
 These are all the languages and tools which I have used to construct this project.
@@ -84,8 +85,8 @@ These are the browsers which I used to test my project.
 1. There wasn't a lot of information about Drew but I got some information about him through **Google** searching his name and this website. 
 [The Chainsmokers - Andrew Taggart Information](https://www.forbes.com/profile/drew-taggart/?sh=3753077a1fa4)
 
-This reddit post allowed me to understand more in-depth about the roles of each member of the Chainsmokers.
-1. [The Chainsmokers - Information about their roles (Studio/Live Concert)](https://www.reddit.com/r/EDM/comments/5et1qy/what_exactly_does_alex_pall_of_the_chainsmokers_do/)
+1. This reddit post allowed me to understand more in-depth about the roles of each member of the Chainsmokers.
+[The Chainsmokers - Information about their roles (Studio/Live Concert)](https://www.reddit.com/r/EDM/comments/5et1qy/what_exactly_does_alex_pall_of_the_chainsmokers_do/)
 
 ### Acknowledgements
 1. The website that inspired me to start this website project is none other than the **Official Chainsmokers** website.
@@ -103,27 +104,27 @@ This reddit post allowed me to understand more in-depth about the roles of each 
 ### Media & Sources
 The following links below are all the links of social medias, images, albums etc.. that I have made use of throughout my website.
 
-**Image Sources**
+**Image Sources:**
 [Andrew Taggart Suit](https://www.pinterest.co.uk/pin/818951513467715611/),
 [Alex Pall Suit](https://celebs.infoseemedia.com/alex-pall/alex-pall-2/),
 [Logo](https://commons.wikimedia.org/wiki/File:Chainsmokers_Logo.png)
 
-**Main Backgrounds**
+**Main Backgrounds:**
 [The Chainsmokers Index Background](https://wallpapercave.com/the-chainsmokers-wallpapers),
 [The Chainsmokers About Background](https://wallpaperaccess.com/the-chain-smokers),
 [The Chainsmokers Music Background](https://www.vanityfair.com/style/2020/08/chainsmokers-hamptons-restaurant-scrutiny),
 [The Chainsmokers Title Icon](https://commons.wikimedia.org/wiki/File:The_Chainsmokers_Logo_2018.png)
 
-**Song Links**
+**Song Links:**
 [WWJ 2019 - Youtube](https://www.youtube.com/playlist?list=PLxKHVMqMZqUQQvTlCOlvD5I_z4mQf_m93),
 [WWJ 2019 - Spotify](https://open.spotify.com/album/01GR4NL5O5CZM51k0aejKD?autoplay=true&v=L),
 [WWJ 2019 - Apple](https://music.apple.com/us/playlist/world-war-joy/pl.3a5d775b00a945e3a4b41bb5d15ea006),
 [WWJ 2019 - iTunes](https://music.apple.com/us/album/world-war-joy/1489350461)
 
-**Social Media Icons & Listen On Icons**
-[The Chainsmokers](https://www.thechainsmokers.com/)
+**Social Media Icons & Listen On Icons:**
+[The Chainsmokers Website](https://www.thechainsmokers.com/)
 
-**Social Links**
+**Social Links:**
 [Alex Pall - Instagram](https://www.instagram.com/alexpall/),
 [Andrew Taggart - Instagram](https://www.instagram.com/drewtaggart/),
 [The Chainsmokers - iTunes](https://itunes.apple.com/us/artist/the-chainsmokers/id580391756?ign-mpt=uo%3D4),
@@ -133,7 +134,7 @@ The following links below are all the links of social medias, images, albums etc
 [The Chainsmokers - Facebook](https://www.facebook.com/thechainsmokers),
 [The Chainsmokers - Twitter](https://twitter.com/thechainsmokers)
 
-**Album links**
+**Album links:**
 [#SELFIE - January 29, 2014](https://www.discogs.com/The-Chainsmokers-Selfie/release/5566766),
 [Bouquet - October 23, 2015](https://open.spotify.com/playlist/31VNey88t7VRLpdBepztS2),
 [Collage - November 4, 2016](https://open.spotify.com/playlist/7ukIyoyCalZTKoYzPM2892),
