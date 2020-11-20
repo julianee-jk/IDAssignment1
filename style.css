@@ -35,7 +35,7 @@ header{
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
-	padding: 20px 100px 10px 20px;
+	padding: 20px 50px 10px 20px;
 }
 
 .logo{
@@ -46,6 +46,7 @@ header{
 
 .nav_links{
 	list-style: none;
+	padding-right: 14em;
 }
 
 .nav_links li{
@@ -93,11 +94,11 @@ header{
 /* Navigate arrow down */
 #arrowdown {
 	position: absolute;
-	left: 48.5%;
+	left: 47.5%;
 	top: 90vh;
 	z-index: 1;
-	height: 30px;
-	width: 50px;
+	height: 50px;
+	width: 70px;
 }
 
 /* Latest News Section */
@@ -299,6 +300,15 @@ header{
 	font-size: 30px;
 }
 
+/* Spotify Embedded Playlists */
+
+#spotify_sec {
+	margin: 6em 0 2em 0;
+}
+
+.spotifybox {
+	margin: 0 2em 0 2em;
+}
 /* Footer */
 footer{
 	display: flex;
