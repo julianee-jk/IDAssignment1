@@ -35,7 +35,7 @@ header{
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
-	padding: 20px 50px 10px 20px;
+	padding: 20px 60px 10px 0px;
 }
 
 .logo{
@@ -46,7 +46,7 @@ header{
 
 .nav_links{
 	list-style: none;
-	padding-right: 14em;
+	padding-right: 12em;
 }
 
 .nav_links li{
