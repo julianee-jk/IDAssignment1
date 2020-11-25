@@ -25,6 +25,7 @@ These are the current features and pages of my website as well as the additional
 
 ### Existing Features
 All the webpages share the same designs for the header page and footer. They also have parallax image backgrounds and texts that relate to the page.
+**All pages are responsive for Mobile.**
 
 * **Homepage - Index Page**
     * Arrow down on background image to scroll down on click
@@ -35,16 +36,15 @@ All the webpages share the same designs for the header page and footer. They als
     * "LISTEN NOW" button which links to Music Page
     * About Alex Pall
     * About Andrew Taggart
+    * Added animation for image on scroll
 * **Music Page**
     * Arrow down on background image to scroll down on click
     * Clickable button cards of each Albums
     * Embedded Spotify playlists for Best Of and Remixes
-
 ### Features to implement
-* Animation for Image in About Page
 * Navigation Bar animation when hover
 * Improve Footer Layout
-* Add the Store & Login form
+* Add responsive for Tablet.
 
 ## Technology Used
 These are all the languages and tools which I have used to construct this project.
