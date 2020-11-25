@@ -597,6 +597,7 @@ button:hover {
 	font-family: 'Londrina Solid', cursive;
 	letter-spacing: 1.8px;
 	font-weight: 400;
+	padding-bottom: -4.2em;
 	text-shadow: -1px -1px 0 rgb(59, 72, 90), 1px -1px 0 rgb(59, 72, 90),-1px 1px 0 rgb(59, 72, 90),1px 1px 0 rgb(59, 72, 90);  
 }
 
@@ -616,14 +617,14 @@ button:hover {
 .infotext {
 	color: white;
 	font-size: 1.1em;
-	padding: 0 1.5em 0 1.5em;
-	display: flex;
-	align-items: center;
-	justify-content: center;
+	padding: 0em 1.5em 0 1.5em;
 	text-align: center;
 	font-family: 'Open Sans', sans-serif;
 }
 
+.infotext_box {
+	padding-top: 5em;
+}
 .infotext > h4 {
 	color: rgb(138, 123, 138);
 	font-style: italic;
@@ -844,6 +845,10 @@ footer{
 		height: 60px;
 	}
 
+	#latestalbum {
+		height: 80vh;
+		width: 100%;
+	}
 	/* Mobile >  Latest Album Image */
 	#latestimg {
 		height: 400px;
@@ -899,9 +904,9 @@ footer{
 	.namestyle {
 		color: rgb(33, 175, 175);
 		font-size: 2em;
+		text-align: center;
 		margin: 0em;
 		margin-top: 1.5em;
-		text-align: center;
 		font-family: 'Londrina Solid', cursive;
 		letter-spacing: 1.8px;
 		font-weight: 400;
@@ -909,7 +914,7 @@ footer{
 	}
 	
 	/* Alex Suit Image & Andrew Suit Image */
-	.aleximg, .andrewimg {
+	.aleximg, .andrewimg, .slide-in, .from-bottom {
 		display: none;
 	}
 
@@ -925,6 +930,9 @@ footer{
 		font-family: 'Open Sans', sans-serif;
 	}
 	
+	.infotext_box {
+		padding-top: 0;
+	}
 	.infotext > h4 {
 		color: rgb(138, 123, 138);
 		font-style: italic;
@@ -946,7 +954,7 @@ footer{
 
 	/* Spotify Embedded Playlists */
 	#spotify_sec {
-		margin: 6em 0 2em 0;
+		margin: 6em 0 0 0;
 	}
 
 	.spotify_box {
@@ -957,8 +965,8 @@ footer{
 		display: flex;
 		background-color:black;
 		padding: 0.5em;
-		margin-top: -3.5em;
 		color: white;
+		margin-top: 4em;
 		justify-content: center;
 		align-items: center;
 		flex-direction: column;
