@@ -392,7 +392,7 @@ button:hover {
 	background-color: black;
   }
   
-.header a {
+.header > a {
 	text-decoration: none;
 	color: #111111;
 	font-size: 2rem;
@@ -410,7 +410,7 @@ button:hover {
 	align-items: center;
 }
 
-.nav_links li a{
+.nav_links > li > a{
 	font-family: 'Londrina Solid', cursive;
 	letter-spacing: 1.8px;
 	font-weight: 400;
@@ -458,17 +458,17 @@ button:hover {
 }
 
 /* Hamburger bar Animation */
-.menu-btn.open .menu-btn__lines {
+.menu-btn.open > .menu-btn__lines {
 	transform: translateX(2rem);
 	background-color: transparent;
 }
 
-.menu-btn.open .menu-btn__lines::before {
+.menu-btn.open > .menu-btn__lines::before {
 	transform: rotate(45deg) translate(-1.5rem, 1.5rem);
 	background-color: #ffffff;
 }
 
-.menu-btn.open .menu-btn__lines::after {
+.menu-btn.open > .menu-btn__lines::after {
 	transform: rotate(-45deg) translate(-1.5rem, -1.5rem);
 	background-color: #ffffff;
 }
@@ -677,7 +677,7 @@ button:hover {
 	flex-wrap: wrap;
 }
 
-.box{
+.album_box{
     display:flex;
     flex-direction: column;
     align-items: center;
@@ -693,20 +693,20 @@ button:hover {
 	border: 4px solid #fff;
 }
 
-.box > a > img{
+.album_box > a > img{
     width:100%;
 	height:auto;
 	border-radius: 8%;
 }
 
-.box > h3 {
+.album_box > h3 {
 	color: white;
 	font-family: 'Londrina Solid', cursive;
 	letter-spacing: 1.5px;
 	font-weight: 200;
 }
 
-.box:hover {
+.album_box:hover {
 	transform: translateY(-10px);
 	opacity: 0.7;
 }
@@ -727,7 +727,7 @@ button:hover {
 	margin: 6em 0 2em 0;
 }
 
-.spotifybox {
+.spotify_box {
 	margin: 0 2em 0 2em;
 }
 
@@ -747,7 +747,7 @@ footer{
 	margin-top: 40px;
 }
 
-.logosize {
+.iconsize {
 	width: 30px;
 	height: 30px;
 	margin: 0px 10px 0px 10px;
@@ -812,7 +812,7 @@ footer{
 		height: 100vh;
 	}
 
-	.mainbg-text span.border {
+	.mainbg-text > span.border {
 		background-color: #000;
 		color: #fff;
 		padding: 10px;
@@ -949,7 +949,7 @@ footer{
 		margin: 6em 0 2em 0;
 	}
 
-	.spotifybox {
+	.spotify_box {
 		margin: 0em 3em 3em 3em;
 	}
 /* ------------- Mobile Footer ------------- */
