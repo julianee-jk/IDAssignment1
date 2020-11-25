@@ -3,9 +3,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Londrina+Solid:wght@300&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Hind+Siliguri&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
-* {
-	box-sizing: border-box;
-}
 
 /* Overall body background */
 body, html{
@@ -17,7 +14,6 @@ body, html{
 }
 
 /* Main Navigation Bar */
-
 button{
 	font-family: 'Londrina Solid', cursive;
 	letter-spacing: 1.8px;
@@ -32,6 +28,7 @@ button{
 button:hover {
 	color: #9b5d96;
 }
+
 .header {
 	position: fixed;
 	top: 0;
@@ -45,11 +42,11 @@ button:hover {
 	background-color: black;
   }
   
-  .header a {
-	text-decoration: none;
-	color: #111111;
-	font-size: 2rem;
-  }
+.header a {
+text-decoration: none;
+color: #111111;
+font-size: 2rem;
+}
 
 .logo{
 	cursor: pointer;
@@ -77,6 +74,7 @@ button:hover {
 .nav_links li a:hover{
 	color: #7c4379;
 }
+
 /* nav menu button */
 .menu-btn {
 	position: relative;
@@ -88,6 +86,7 @@ button:hover {
 	cursor: pointer;
 	z-index: 1;
 }
+
 .menu-btn__lines,
 .menu-btn__lines::before,
 .menu-btn__lines::after {
@@ -96,26 +95,32 @@ button:hover {
 	background-color: #ffffff;
 	transition: all 0.5s ease-in-out;
 }
+
 .menu-btn__lines::before,
 .menu-btn__lines::after {
 	content: "";
 	position: absolute;
 }
+
 .menu-btn__lines::before {
 	transform: translateY(-0.5rem);
 }
+
 .menu-btn__lines::after {
 	transform: translateY(0.5rem);
 }
-/* animation */
+
+/* Hamburger bar Animation */
 .menu-btn.open .menu-btn__lines {
 	transform: translateX(2rem);
 	background-color: transparent;
 }
+
 .menu-btn.open .menu-btn__lines::before {
 	transform: rotate(45deg) translate(-1.5rem, 1.5rem);
 	background-color: #ffffff;
 }
+
 .menu-btn.open .menu-btn__lines::after {
 	transform: rotate(-45deg) translate(-1.5rem, -1.5rem);
 	background-color: #ffffff;
@@ -123,7 +128,7 @@ button:hover {
 /* ------------- Index page ------------- */
 #mainbg {
 	display: flex;
-	background-image: url("images/chainsmokers_indexbg.jpg"); 
+	background-image: url("images/backgrounds/chainsmokers_indexbg.jpg"); 
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position:center;
@@ -200,6 +205,185 @@ button:hover {
 	cursor: pointer;
 }
 
+/* ------------- About Page ------------- */
+#aboutbg {
+	display: flex;
+	background-image: url("images/backgrounds/chainsmokers_aboutbg.jpg"); 
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+	opacity: 60%;
+	height: 100vh;
+}
+
+#about_area {
+	margin-top: 3em;
+}
+
+.about_img {
+	width: 400px;
+	height: 400px;
+}
+
+.about_tcs {
+	display: flex;
+	margin: 1em 12em 0 12em;
+}
+
+.about_text {
+	color: white;
+	font-size: 1.1em;
+	font-family: 'Open Sans', sans-serif;
+}
+
+/* Split class to seperate image & text */
+.split {
+	padding: 3em;
+}
+
+/* Name style for nammes */
+.namestyle {
+	color: rgb(33, 175, 175);
+	font-size: 2em;
+	text-align: center;
+	font-family: 'Londrina Solid', cursive;
+	letter-spacing: 1.8px;
+	font-weight: 400;
+	text-shadow: -1px -1px 0 rgb(59, 72, 90), 1px -1px 0 rgb(59, 72, 90),-1px 1px 0 rgb(59, 72, 90),1px 1px 0 rgb(59, 72, 90);  
+}
+
+/* Alex Suit Image */
+#aleximg {
+	width: 270px;
+	height: 500px;
+}
+
+/* Andrew Suit Image */
+#andrewimg {
+	width: 250px;
+	height: 500px;
+}
+
+/* To give exact properties to info*/
+.infotext {
+	color: white;
+	font-size: 1.1em;
+	padding: 0 1.5em 0 1.5em;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+	font-family: 'Open Sans', sans-serif;
+}
+
+.infotext > h4 {
+	color: rgb(138, 123, 138);
+	font-style: italic;
+}
+
+/* ------------- Music Page ------------- */
+#musicbg {
+	display: flex;
+	background-image: url("images/backgrounds/chainsmokers_musicbg.jpg"); 
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+	opacity: 60%;
+	height: 100vh;
+}
+
+#albums_sec {
+	margin: 5em 0 2em 0;
+}
+
+/* Album Cards */
+.container{
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+	flex-wrap: wrap;
+}
+
+.box{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    max-width:18rem;
+	min-width:10rem;
+	margin: 0 0.5em 0 0.5em;
+	text-align: center;
+	background-color: rgb(51, 51, 51);
+	cursor: pointer;
+	transition: transform 0.5s;
+	border-radius: 10%;
+	border: 4px solid #fff;
+}
+
+.box > a > img{
+    width:100%;
+	height:auto;
+	border-radius: 8%;
+}
+
+.box > h3 {
+	color: white;
+	font-family: 'Londrina Solid', cursive;
+	letter-spacing: 1.5px;
+	font-weight: 200;
+}
+
+.box:hover {
+	transform: translateY(-10px);
+	opacity: 0.7;
+}
+
+/* #SELFIE Where it all started */
+#musicarea {
+	width: 100%;
+	margin-top: 5em;
+}
+
+.musicstyle { 
+	color: #1db41d;
+	font-size: 30px;
+}
+
+/* Spotify Embedded Playlists */
+#spotify_sec {
+	margin: 6em 0 2em 0;
+}
+
+.spotifybox {
+	margin: 0 2em 0 2em;
+}
+
+/* Footer */
+footer{
+	display: flex;
+	background-color:black;
+	margin-top: 6.5em;
+	padding: 0.5em;
+	color: white;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+
+.sociallinks {
+	margin-top: 40px;
+}
+
+.logosize {
+	width: 30px;
+	height: 30px;
+	margin: 0px 10px 0px 10px;
+}
+
+/* ------------- Mobile View ------------- */
 @media only screen and (max-width: 767px) {
 	/* Hamburger menu */
 	.header a {
@@ -210,6 +394,7 @@ button:hover {
 		display: flex;
 	}
 
+	/* Mobile > open menu */
 	.nav_links {
 		flex-direction: column;
 		justify-content: space-around;
@@ -284,7 +469,6 @@ button:hover {
 	}
 
 	/* Mobile > Logo */
-
 	.logo{
 		cursor: pointer;
 		width: 280px;
@@ -292,7 +476,6 @@ button:hover {
 	}
 
 	/* Mobile >  Latest Album Image */
-
 	#latestimg {
 		height: 400px;
 		width: 400px;
@@ -309,201 +492,15 @@ button:hover {
 		height: 40px;
 		margin-left: 0.4em;
 		cursor: pointer;
-
 	}
-}
 
-/* ------------- About Page ------------- */
-#aboutbg {
-	display: flex;
-	background-image: url("images/chainsmokers_aboutbg.jpg"); 
-	background-position: center;
-	background-repeat: no-repeat;
-	background-size: cover;
-	background-attachment: fixed;
-	opacity: 60%;
-	height: 100vh;
-}
-
-#about_area {
-	margin-top: 3em;
-}
-
-.about_img {
-	width: 400px;
-	height: 400px;
-}
-
-.about_tcs {
-	display: flex;
-	margin: 1em 12em 0 12em;
-}
-
-.about_text {
-	color: white;
-	font-size: 1.1em;
-	font-family: 'Open Sans', sans-serif;
-}
-
-/* Split class to seperate image & text */
-.split {
-	padding: 3em;
-}
-
-/* Name style for nammes */
-.namestyle {
-	color: rgb(33, 175, 175);
-	font-size: 2em;
-	text-align: center;
-	font-family: 'Londrina Solid', cursive;
-	letter-spacing: 1.8px;
-	font-weight: 400;
-	text-shadow:
-    -1px -1px 0 rgb(59, 72, 90),
-    1px -1px 0 rgb(59, 72, 90),
-    -1px 1px 0 rgb(59, 72, 90),
-    1px 1px 0 rgb(59, 72, 90);  
-}
-
-/* Alex Suit Image */
-#aleximg {
-	width: 270px;
-	height: 500px;
-}
-
-/* Andrew Suit Image */
-#andrewimg {
-	width: 250px;
-	height: 500px;
-}
-
-/* To give exact properties to info*/
-.infotext {
-	color: white;
-	font-size: 1.1em;
-	padding: 0 1.5em 0 1.5em;
-	display: flex;
-	align-items: center;
-	justify-content: center;
-	text-align: center;
-	font-family: 'Open Sans', sans-serif;
-}
-
-.infotext > h4 {
-	color: rgb(138, 123, 138);
-	font-style: italic;
-}
-
-@media only screen and (max-width: 600px) {
+	/* Mobile > About TCS*/
 	.about_tcs{
 		display: flex;
 		flex-direction: column;
 	}
-}
 
-/* ------------- Music Page ------------- */
-#musicbg {
-	display: flex;
-	background-image: url("images/chainsmokers_musicbg.jpg"); 
-	background-position: center;
-	background-repeat: no-repeat;
-	background-size: cover;
-	background-attachment: fixed;
-	opacity: 60%;
-	height: 100vh;
-}
-
-#albums_sec {
-	margin: 5em 0 2em 0;
-}
-
-/* Album Cards */
-.container{
-    display:flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-	flex-wrap: wrap;
-}
-
-.box{
-    display:flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    max-width:18rem;
-	min-width:10rem;
-	margin: 0 0.5em 0 0.5em;
-	text-align: center;
-	background-color: rgb(51, 51, 51);
-	cursor: pointer;
-	transition: transform 0.5s;
-	border-radius: 10%;
-	border: 4px solid #fff;
-}
-
-.box > a > img{
-    width:100%;
-	height:auto;
-	border-radius: 8%;
-}
-
-
-.box > h3 {
-	color: white;
-	font-family: 'Londrina Solid', cursive;
-	letter-spacing: 1.5px;
-	font-weight: 200;
-}
-
-.box:hover {
-	transform: translateY(-10px);
-	opacity: 0.7;
-}
-
-/* #SELFIE Where it all started */
-#musicarea {
-	width: 100%;
-	margin-top: 5em;
-}
-
-.musicstyle { 
-	color: #1db41d;
-	font-size: 30px;
-}
-
-/* Spotify Embedded Playlists */
-
-#spotify_sec {
-	margin: 6em 0 2em 0;
-}
-
-.spotifybox {
-	margin: 0 2em 0 2em;
-}
-/* Footer */
-footer{
-	display: flex;
-	background-color:black;
-	margin-top: 6.5em;
-	padding: 0.5em;
-	color: white;
-	justify-content: center;
-	align-items: center;
-	flex-direction: column;
-}
-
-.sociallinks {
-	margin-top: 40px;
-}
-
-.logosize {
-	width: 30px;
-	height: 30px;
-	margin: 0px 10px 0px 10px;
-}
-
-@media only screen and (max-width: 600px) {
+	/* Mobile > Footer */
 	footer{
 		display: flex;
 		background-color:black;
@@ -515,6 +512,3 @@ footer{
 		flex-direction: column;
 	}
 }
-/* Form */
-
-/* Other */
