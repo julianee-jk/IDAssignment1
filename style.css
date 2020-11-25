@@ -3,6 +3,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Londrina+Solid:wght@300&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Hind+Siliguri&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+* {
+	box-sizing: border-box;
+}
+
 /* Overall body background */
 body, html{
 	height: 100%;
@@ -14,16 +18,13 @@ body, html{
 
 /* Main Navigation Bar */
 
-li, a, button{
+button{
 	font-family: 'Londrina Solid', cursive;
 	letter-spacing: 1.8px;
 	font-weight: 400;
 	font-size: 21px;
 	color: #edf0f1;
 	text-decoration: none;
-}
-
-button {
 	background-color: rgb(59, 59, 59);
 	cursor: pointer;
 }
@@ -31,12 +32,24 @@ button {
 button:hover {
 	color: #9b5d96;
 }
-header{
+.header {
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
-	padding: 20px 60px 10px 0px;
-}
+	padding: 1rem 2rem;
+	z-index: 1;
+	background-color: black;
+  }
+  
+  .header a {
+	text-decoration: none;
+	color: #111111;
+	font-size: 2rem;
+  }
 
 .logo{
 	cursor: pointer;
@@ -46,20 +59,66 @@ header{
 
 .nav_links{
 	list-style: none;
-	padding-right: 12em;
-}
-
-.nav_links li{
-	display: inline-block; /*Side by side*/
-	padding: 0px 15px; /*0px top, 20px right*/
+	display: flex;
+	align-items: center;
 }
 
 .nav_links li a{
-	transition: all 0.3s ease 0s;
+	font-family: 'Londrina Solid', cursive;
+	letter-spacing: 1.8px;
+	font-weight: 400;
+	font-size: 21px;
+	color: #edf0f1;
+	text-decoration: none;
+	padding: 0.5em 1em;
+	transition: background 0.3s ease-in-out, color 0.3s ease-in-out;
 }
 
 .nav_links li a:hover{
 	color: #7c4379;
+}
+/* nav menu button */
+.menu-btn {
+	position: relative;
+	display: none;
+	justify-content: center;
+	align-items: center;
+	width: 1.2rem;
+	height: 1rem;
+	cursor: pointer;
+	z-index: 1;
+}
+.menu-btn__lines,
+.menu-btn__lines::before,
+.menu-btn__lines::after {
+	width: 1.2rem;
+	height: 0.1rem;
+	background-color: #ffffff;
+	transition: all 0.5s ease-in-out;
+}
+.menu-btn__lines::before,
+.menu-btn__lines::after {
+	content: "";
+	position: absolute;
+}
+.menu-btn__lines::before {
+	transform: translateY(-0.5rem);
+}
+.menu-btn__lines::after {
+	transform: translateY(0.5rem);
+}
+/* animation */
+.menu-btn.open .menu-btn__lines {
+	transform: translateX(2rem);
+	background-color: transparent;
+}
+.menu-btn.open .menu-btn__lines::before {
+	transform: rotate(45deg) translate(-1.5rem, 1.5rem);
+	background-color: #ffffff;
+}
+.menu-btn.open .menu-btn__lines::after {
+	transform: rotate(-45deg) translate(-1.5rem, -1.5rem);
+	background-color: #ffffff;
 }
 /* ------------- Index page ------------- */
 #mainbg {
@@ -70,10 +129,10 @@ header{
 	background-position:center;
 	background-attachment: fixed;
 	opacity: 60%;
-	height: 86vh;
+	height: 100vh;
 }
 
-/* Image containers */
+/* Background Overlay Texts */
 .mainbg-text {
 	position: absolute;
 	left: 0;
@@ -141,6 +200,119 @@ header{
 	cursor: pointer;
 }
 
+@media only screen and (max-width: 767px) {
+	/* Hamburger menu */
+	.header a {
+		font-size: 1rem;
+	}
+
+	.menu-btn {
+		display: flex;
+	}
+
+	.nav_links {
+		flex-direction: column;
+		justify-content: space-around;
+		position: absolute;
+		top: 0;
+		right: 0;
+		left: 0;
+		height: 100vh;
+		transform: translateX(100vw);
+		background-color: #6d4d70;
+		transition: transform 0.3s ease-in-out;
+	}
+
+	.nav_links.open {
+		transform: translateX(0);
+	}
+
+	.nav_links li {
+		width: 100vw;
+		height: 100%;
+	}
+
+	.nav_links li a {
+		color: #ffffff;
+		font-size: 5vh;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		width: 100%;
+		height: 100%;
+	}
+
+	.nav_links li a:hover {
+		color: #000000;
+	}
+
+	/* Mobile > Main background */
+	#mainbg {
+		display: flex;
+		background-image: url("images/mobile/mainbg.jpg"); 
+		background-repeat: no-repeat;
+		background-size: cover;
+		background-position:center;
+		background-attachment: fixed;
+		opacity: 55%;
+		height: 100vh;
+	}
+
+	.mainbg-text span.border {
+		background-color: #000;
+		color: #fff;
+		padding: 10px;
+		font-size: 20px;
+		letter-spacing: 10px;
+		font-family: 'Alatsi', sans-serif;
+	}
+	
+	/* Mobile > Navigate arrow down */
+	#arrowdown {
+		position: absolute;
+		left: 43.5%;
+		top: 85vh;
+		z-index: 1;
+		height: 50px;
+		width: 70px;
+	}
+
+	.songbtn-container {
+		display: flex;
+		justify-content: center;
+		flex-wrap: wrap;
+	}
+
+	/* Mobile > Logo */
+
+	.logo{
+		cursor: pointer;
+		width: 280px;
+		height: 60px;
+	}
+
+	/* Mobile >  Latest Album Image */
+
+	#latestimg {
+		height: 400px;
+		width: 400px;
+	}
+
+	/* Mobile > Link buttons */
+	.songbtn-container {
+		display: flex;
+		justify-content: center;
+	}
+
+	.songbtn {
+		width: 100px;
+		height: 40px;
+		margin-left: 0.4em;
+		cursor: pointer;
+
+	}
+}
+
 /* ------------- About Page ------------- */
 #aboutbg {
 	display: flex;
@@ -150,7 +322,7 @@ header{
 	background-size: cover;
 	background-attachment: fixed;
 	opacity: 60%;
-	height: 86vh;
+	height: 100vh;
 }
 
 #about_area {
@@ -238,7 +410,7 @@ header{
 	background-size: cover;
 	background-attachment: fixed;
 	opacity: 60%;
-	height: 86vh;
+	height: 100vh;
 }
 
 #albums_sec {
@@ -329,6 +501,19 @@ footer{
 	width: 30px;
 	height: 30px;
 	margin: 0px 10px 0px 10px;
+}
+
+@media only screen and (max-width: 600px) {
+	footer{
+		display: flex;
+		background-color:black;
+		padding: 0.5em;
+		margin-top: -3.5em;
+		color: white;
+		justify-content: center;
+		align-items: center;
+		flex-direction: column;
+	}
 }
 /* Form */
 
