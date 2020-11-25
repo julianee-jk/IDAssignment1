@@ -8,15 +8,15 @@ Therefore, this project is to focus on optimizing the website to allow new users
 
 ## Design Process
 
-* Newcomers
+* **Newcomers**
     * They will be able to learn about the duo on their "About" webpage. For example, the history of the iconic duo, how did it all started, their older music albums or more about each of the duo.
 
-* Fans
+* **Fans**
     * The fans will be able to keep up with the latest news on the duo or the upcoming albums that will be releasing.
     * They will be able to pre-order the upcoming albums or even purchase merchandise at the store.
     * Fans will be able to view the upcoming shows/converts that the duo will be holding and they will also get the chance to book slots for the shows.
 
-* Media & General Public
+* **Media & General Public**
     * Check out the social media of the Chainsmokers to reach out to them.
     * Check out their old to new albums and learn more about the duo.
 
@@ -142,3 +142,6 @@ The following links below are all the links of social medias, images, albums etc
 [World War Joy - May 31, 2019](https://open.spotify.com/playlist/28l2IUIh7KDW3qzCesOSqd),
 [The Chainsmokers Remixes](https://open.spotify.com/playlist/2AiGJYOMDTvtXVYp1ZSVnS?si=q1q9NeKoRJeCUQ676jWMeQ),
 [The Chainsmokers - Best Of](https://open.spotify.com/playlist/06MtbfNH3yEkSXDGbbFFW9?si=-zZ5lFCIQiOcAffKuYMgyw)
+
+**Wireframe Link**
+[Website Wireframe](https://drive.google.com/drive/folders/1PbVvmoEvncIFNeUJolGCteF99jDvA-P1?usp=sharing)
