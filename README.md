@@ -88,6 +88,13 @@ These are the browsers which I used to test my project.
 1. This reddit post allowed me to understand more in-depth about the roles of each member of the Chainsmokers.
 [The Chainsmokers - Information about their roles (Studio/Live Concert)](https://www.reddit.com/r/EDM/comments/5et1qy/what_exactly_does_alex_pall_of_the_chainsmokers_do/)
 
+1. This YouTube video on OnScroll animations has taught me methods to create my own Slide Up animation!
+[On Scroll Animations](https://www.youtube.com/watch?v=huVJW23JHKQ&t=890s)
+
+1. This YouTube video has taught me how to make my very own animated Hamburger menu bar.
+[Animated Hamburger Menu](https://www.youtube.com/watch?v=nME3fE3c9Qw) 
+
+
 ### Acknowledgements
 1. The website that inspired me to start this website project is none other than the **Official Chainsmokers** website.
 [The Chainsmokers Website](https://www.thechainsmokers.com/)

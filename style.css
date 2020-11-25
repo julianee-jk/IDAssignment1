@@ -601,13 +601,13 @@ button:hover {
 }
 
 /* Alex Suit Image */
-#aleximg {
+.aleximg {
 	width: 270px;
 	height: 500px;
 }
 
 /* Andrew Suit Image */
-#andrewimg {
+.andrewimg {
 	width: 250px;
 	height: 500px;
 }
@@ -627,6 +627,29 @@ button:hover {
 .infotext > h4 {
 	color: rgb(138, 123, 138);
 	font-style: italic;
+}
+
+/* Fade in animation */
+.fade-in {
+	opacity: 0;
+	transition: opacity 250ms ease-in;
+}
+
+.fade-in.appear {
+	opacity: 1;
+}
+
+/* Slide up animation from bottom */
+.from-bottom {
+	transform: translateY(50%);
+	transition: opacity 250ms ease-in, transform
+	400ms ease-in;
+	opacity: 0;
+}
+
+.from-bottom.appear {
+	transform: translateY(0);
+	opacity: 1;
 }
 
 /* ------------- Music Page ------------- */
