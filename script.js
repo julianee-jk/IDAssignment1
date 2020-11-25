@@ -19,6 +19,11 @@ menuItem.forEach((item) => {
     });
 });
 
+function toggle() {
+    menuBtn.classList.toggle("open");
+    menuItems.classList.toggle("open");
+  }
+
 // Fade in and Slide Up
 const appearOptions = {
     threshold: 0,
