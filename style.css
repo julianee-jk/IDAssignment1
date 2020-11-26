@@ -62,7 +62,7 @@ body, html{
 	display: block;
 	height: 0.2em;
 	width: 0%;
-	left: 1em;
+	left: 0.95em;
 	background-color: #7c4379;
 	bottom:	-0.1em;
 	transition: all ease-in-out 250ms;
@@ -372,7 +372,7 @@ button:hover {
 
 .album_box:hover {
 	transform: translateY(-10px);
-	opacity: 0.7;
+	opacity: 0.8;
 }
 
 /* #SELFIE Where it all started */
