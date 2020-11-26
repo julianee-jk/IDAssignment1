@@ -24,8 +24,11 @@ Therefore, this project is to focus on optimizing the website to allow new users
 These are the current features and pages of my website as well as the additional features I plan to add in the future.
 
 ### Existing Features
-All the webpages share the same designs for the header page and footer. They also have parallax image backgrounds and texts that relate to the page.
-**All pages are responsive for Mobile.**
+All the webpages share the same designs for the header page and footer. 
+* **Global Features**
+    * Responsive for Mobile
+    * Parallax image backgrounds and texts that relate to the page.
+    * Navigation Bar animation when hover
 
 * **Homepage - Index Page**
     * Arrow down on background image to scroll down on click
@@ -42,7 +45,7 @@ All the webpages share the same designs for the header page and footer. They als
     * Clickable button cards of each Albums
     * Embedded Spotify playlists for Best Of and Remixes
 ### Features to implement
-* Navigation Bar animation when hover
+* 
 * Improve Footer Layout
 * Add responsive for Tablet.
 
@@ -56,7 +59,7 @@ These are all the languages and tools which I have used to construct this projec
 * [Visual Studio Code](https://code.visualstudio.com/)
     * This project uses **Visual Studio Code** as the Integrated Development Environment (IDE)
 
-* [Adobe Xd](https://www.adobe.com/sea/products/xd.html)
+* [Adobe XD](https://www.adobe.com/sea/products/xd.html)
     * This project uses **Adobe Xd** to make the wireframes of the website. (Desktop & Mobile)
 
 ### Languages 
@@ -141,7 +144,7 @@ The following links below are all the links of social medias, images, albums etc
 [The Chainsmokers - Facebook](https://www.facebook.com/thechainsmokers),
 [The Chainsmokers - Twitter](https://twitter.com/thechainsmokers)
 
-**Album links:**
+**Album Links:**
 [#SELFIE - January 29, 2014](https://www.discogs.com/The-Chainsmokers-Selfie/release/5566766),
 [Bouquet - October 23, 2015](https://open.spotify.com/playlist/31VNey88t7VRLpdBepztS2),
 [Collage - November 4, 2016](https://open.spotify.com/playlist/7ukIyoyCalZTKoYzPM2892),
@@ -150,5 +153,5 @@ The following links below are all the links of social medias, images, albums etc
 [The Chainsmokers Remixes](https://open.spotify.com/playlist/2AiGJYOMDTvtXVYp1ZSVnS?si=q1q9NeKoRJeCUQ676jWMeQ),
 [The Chainsmokers - Best Of](https://open.spotify.com/playlist/06MtbfNH3yEkSXDGbbFFW9?si=-zZ5lFCIQiOcAffKuYMgyw)
 
-**Wireframe Link**
+**Wireframe Link:**
 [Website Wireframe](https://drive.google.com/drive/folders/1PbVvmoEvncIFNeUJolGCteF99jDvA-P1?usp=sharing)
