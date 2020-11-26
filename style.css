@@ -417,6 +417,51 @@ footer{
 	margin: 0px 10px 0px 10px;
 }
 
+/* ------------- Smaller Laptop View ------------- */
+@media only screen and (max-width: 1280px){
+	/* Add flex wrap to container */
+	.about_tcs{
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		flex-direction: column;
+		flex-wrap: wrap;
+		margin: 0;
+		text-align: center;
+	}
+	.infotext_box {
+		padding-top: 3em;
+	}
+	/* To give exact properties to info*/
+	.infotext {
+		color: white;
+		font-size: 1.1em;
+		margin: 1em 3em 0em 3em;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		text-align: center;
+		font-family: 'Open Sans', sans-serif;
+	}
+
+	.about_text {
+		color: white;
+		font-size: 1.1em;
+		font-family: 'Open Sans', sans-serif;
+		margin: 1em 0.3em 1em 0.3em;
+		padding: 0em 3em 0em 3em;
+	}
+
+	/* Alex Suit Image & Andrew Suit Image */
+	.aleximg, .andrewimg, .slide-in, .from-bottom {
+		display: none;
+	}
+
+	.split {
+		padding: 0;
+	}
+}
+
 /* ------------- Mobile & Tablet View ------------- */
 @media only screen and (max-width: 780px) {
 	/* Hamburger menu */
@@ -653,4 +698,5 @@ footer{
 		background-attachment: fixed;
 		opacity: 60%;
 		height: 100vh;
+	}
 }
