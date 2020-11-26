@@ -260,7 +260,6 @@ button:hover {
 	font-family: 'Londrina Solid', cursive;
 	letter-spacing: 1.8px;
 	font-weight: 400;
-	padding-bottom: -4.2em;
 	text-shadow: -1px -1px 0 rgb(59, 72, 90), 1px -1px 0 rgb(59, 72, 90),-1px 1px 0 rgb(59, 72, 90),1px 1px 0 rgb(59, 72, 90);  
 }
 
@@ -418,7 +417,7 @@ footer{
 	margin: 0px 10px 0px 10px;
 }
 
-/* ------------- Tablet View ------------- */
+/* ------------- Mobile & Tablet View ------------- */
 @media only screen and (max-width: 780px) {
 	/* Hamburger menu */
 	.header a {
@@ -439,7 +438,7 @@ footer{
 		left: 0;
 		height: 100vh;
 		transform: translateX(100vw);
-		background-color: #6d4d70;
+		background-color: #000000;
 		transition: transform 0.3s ease-in-out;
 	}
 
@@ -465,7 +464,7 @@ footer{
 	}
 
 	.nav_links li a:hover {
-		color: #000000;
+		color: #7c4379;
 	}
 	/* ------------- Mobile Index page ------------- */
 	/* Mobile > Main Index background */
@@ -638,4 +637,20 @@ footer{
 		align-items: center;
 		flex-direction: column;
 	}
+}
+@media only screen and (max-width: 600px){
+	.logo{
+		cursor: pointer;
+		width: 200px;
+		height: 50px;
+	}
+	#musicbg {
+		display: flex;
+		background-image: url("images/mobile/musicbg.jpg"); 
+		background-position: center;
+		background-repeat: no-repeat;
+		background-size: cover;
+		background-attachment: fixed;
+		opacity: 60%;
+		height: 100vh;
 }

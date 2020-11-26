@@ -124,6 +124,8 @@ The following links below are all the links of social medias, images, albums etc
 [The Chainsmokers About Background](https://wallpaperaccess.com/the-chain-smokers),
 [The Chainsmokers Music Background](https://www.vanityfair.com/style/2020/08/chainsmokers-hamptons-restaurant-scrutiny),
 [The Chainsmokers Title Icon](https://commons.wikimedia.org/wiki/File:The_Chainsmokers_Logo_2018.png)
+[The Chainsmokers MOBILE Index Background](https://www.itl.cat/wallview/iThJwJb_chainsmokers-chile/)
+[The Chainsmokers MOBILE Music Background](https://mobile.alphacoders.com/wallpapers/view/673067/Music-The-Chainsmokers-Wallpapers)
 
 **Song Links:**
 [WWJ 2019 - Youtube](https://www.youtube.com/playlist?list=PLxKHVMqMZqUQQvTlCOlvD5I_z4mQf_m93),
