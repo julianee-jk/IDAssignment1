@@ -155,5 +155,9 @@ The following links below are all the links of social medias, images, albums etc
 [The Chainsmokers Remixes](https://open.spotify.com/playlist/2AiGJYOMDTvtXVYp1ZSVnS?si=q1q9NeKoRJeCUQ676jWMeQ),
 [The Chainsmokers - Best Of](https://open.spotify.com/playlist/06MtbfNH3yEkSXDGbbFFW9?si=-zZ5lFCIQiOcAffKuYMgyw)
 
+**The Chainsmokers Webstore**
+[The Chainsmokers Webstore](https://store.thechainsmokers.com/)
+[The Chainsmokers Shows](https://go.seated.com/notifications/welcome/f94f8391-d48f-42c7-92f5-efc725a6bfef)
+
 **Wireframe Link:**
 [Website Wireframe](https://drive.google.com/drive/folders/1PbVvmoEvncIFNeUJolGCteF99jDvA-P1?usp=sharing)
