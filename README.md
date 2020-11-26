@@ -45,9 +45,10 @@ All the webpages share the same designs for the header page and footer.
     * Clickable button cards of each Albums
     * Embedded Spotify playlists for Best Of and Remixes
 ### Features to implement
-* 
-* Improve Footer Layout
-* Add responsive for Tablet.
+* Further bug fixes
+* Page animations
+* Improve website layout for Internet Explorer
+* Improve website layout for Samsung Galaxy Fold
 
 ## Technology Used
 These are all the languages and tools which I have used to construct this project.
@@ -75,6 +76,9 @@ These are all the languages and tools which I have used to construct this projec
 These are the browsers which I used to test my project.
 
 * [Brave](https://brave.com/)
+* [Microsoft Edge](https://www.microsoft.com/en-us/edge)
+* [Google Chrome](https://www.google.com/chrome/?brand=BNSD&gclsrc=ds&gclsrc=ds)
+* [Modzilla Firefox](https://www.mozilla.org/en-US/firefox/new/)
 
 ## Credits
 
