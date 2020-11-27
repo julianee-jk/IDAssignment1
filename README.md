@@ -85,7 +85,7 @@ These are all the languages and tools which I have used to construct this projec
 * [Modzilla Firefox](https://www.mozilla.org/en-US/firefox/new/)
 * [Internet Explorer](https://www.microsoft.com/en-us/download/internet-explorer.aspx)
     * JavaScript animations and certain container CSS does not seem to work on this browser.
-
+* [Opera](https://www.opera.com/)
 ### Mobile Devices Tested
 
 * **Motorola Moto G4**
