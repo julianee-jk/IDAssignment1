@@ -146,8 +146,8 @@ The following links below are all the links of social medias, images, albums etc
 [The Chainsmokers Index Background](https://wallpapercave.com/the-chainsmokers-wallpapers),
 [The Chainsmokers About Background](https://wallpaperaccess.com/the-chain-smokers),
 [The Chainsmokers Music Background](https://www.vanityfair.com/style/2020/08/chainsmokers-hamptons-restaurant-scrutiny),
-[The Chainsmokers Title Icon](https://commons.wikimedia.org/wiki/File:The_Chainsmokers_Logo_2018.png)
-[The Chainsmokers MOBILE Index Background](https://www.itl.cat/wallview/iThJwJb_chainsmokers-chile/)
+[The Chainsmokers Title Icon](https://commons.wikimedia.org/wiki/File:The_Chainsmokers_Logo_2018.png),
+[The Chainsmokers MOBILE Index Background](https://www.itl.cat/wallview/iThJwJb_chainsmokers-chile/),
 [The Chainsmokers MOBILE Music Background](https://mobile.alphacoders.com/wallpapers/view/673067/Music-The-Chainsmokers-Wallpapers)
 
 **Song Links:**
@@ -178,8 +178,8 @@ The following links below are all the links of social medias, images, albums etc
 [The Chainsmokers Remixes](https://open.spotify.com/playlist/2AiGJYOMDTvtXVYp1ZSVnS?si=q1q9NeKoRJeCUQ676jWMeQ),
 [The Chainsmokers - Best Of](https://open.spotify.com/playlist/06MtbfNH3yEkSXDGbbFFW9?si=-zZ5lFCIQiOcAffKuYMgyw)
 
-**The Chainsmokers Webstore**
-[The Chainsmokers Webstore](https://store.thechainsmokers.com/)
+**Navigation Menu Links:**
+[The Chainsmokers Webstore](https://store.thechainsmokers.com/),
 [The Chainsmokers Shows](https://go.seated.com/notifications/welcome/f94f8391-d48f-42c7-92f5-efc725a6bfef)
 
 ### Acknowledgements
