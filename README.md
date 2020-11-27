@@ -97,7 +97,7 @@ These are all the languages and tools which I have used to construct this projec
 * **Google Pixel 2 XL**
     * Mobile responsiveness works well on this device.
 * **iPhone 5/SE**
-    * The hamburger menu bar seems to pop out on the right more than usual. Content still readable.
+    * Mobile responsiveness works well on this device.
 * **iPhone 6/7/8**
     * Mobile responsiveness works well on this device.
 * **iPhone 6/7/8 Plus**
@@ -105,7 +105,7 @@ These are all the languages and tools which I have used to construct this projec
 * **iPhone X**
     * Mobile responsiveness works well on this device.
 * **iPad**
-    * Mobile responsiveness works well on this device. Hamburger menu bar a little out of view.
+    * Mobile responsiveness works well on this device.
 * **iPad Pro**
     * Mobile responsiveness works well on this device. 
 * **Surface Duo**
