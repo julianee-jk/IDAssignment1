@@ -419,6 +419,22 @@ footer{
 
 /* ------------- Smaller Laptop View ------------- */
 @media only screen and (max-width: 1280px){
+	/* Mobile > Main Index background (iPad Pro) s*/
+	#mainbg {
+		display: flex;
+		background-image: url("images/mobile/mainbg.jpg"); 
+		background-repeat: no-repeat;
+		background-size: cover;
+		background-position:center;
+		background-attachment: fixed;
+		opacity: 55%;
+		height: 100vh;
+	}
+	/* Fixed for iPad Pro */
+	#latestalbum {
+		height: 60vh;
+		width: 100%;
+	}
 	/* Add flex wrap to container */
 	.about_tcs{
 		display: flex;
@@ -512,18 +528,6 @@ footer{
 		color: #7c4379;
 	}
 	/* ------------- Mobile Index page ------------- */
-	/* Mobile > Main Index background */
-	#mainbg {
-		display: flex;
-		background-image: url("images/mobile/mainbg.jpg"); 
-		background-repeat: no-repeat;
-		background-size: cover;
-		background-position:center;
-		background-attachment: fixed;
-		opacity: 55%;
-		height: 100vh;
-	}
-
 	.mainbg-text > span.border {
 		background-color: #000;
 		color: #fff;

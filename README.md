@@ -20,11 +20,15 @@ Therefore, this project is to focus on optimizing the website to allow new users
     * Check out the social media of the Chainsmokers to reach out to them.
     * Check out their old to new albums and learn more about the duo.
 
+**Wireframe Link:**
+[Website Wireframe](https://drive.google.com/drive/folders/1PbVvmoEvncIFNeUJolGCteF99jDvA-P1?usp=sharing)
+
 ## Features
 These are the current features and pages of my website as well as the additional features I plan to add in the future.
 
 ### Existing Features
 All the webpages share the same designs for the header page and footer. 
+
 * **Global Features**
     * Responsive for Mobile
     * Parallax image backgrounds and texts that relate to the page.
@@ -39,13 +43,13 @@ All the webpages share the same designs for the header page and footer.
     * "LISTEN NOW" button which links to Music Page
     * About Alex Pall
     * About Andrew Taggart
-    * Added animation for image on scroll
+    * Added Animation for image on scroll
 * **Music Page**
     * Arrow down on background image to scroll down on click
     * Clickable button cards of each Albums
     * Embedded Spotify playlists for Best Of and Remixes
 ### Features to implement
-* Further bug fixes
+* Fix mobile responsiveness for mobile devices
 * Page animations
 * Improve website layout for Internet Explorer
 * Improve website layout for Samsung Galaxy Fold
@@ -73,12 +77,41 @@ These are all the languages and tools which I have used to construct this projec
 * [JavaScript](https://www.javascript.com/)
     * This project made use of JavaScript to make the webpage much more interactive and aesthetic with animations.
 ## Testing
-These are the browsers which I used to test my project.
+### Browsers Tested
 
 * [Brave](https://brave.com/)
 * [Microsoft Edge](https://www.microsoft.com/en-us/edge)
 * [Google Chrome](https://www.google.com/chrome/?brand=BNSD&gclsrc=ds&gclsrc=ds)
 * [Modzilla Firefox](https://www.mozilla.org/en-US/firefox/new/)
+* [Internet Explorer](https://www.microsoft.com/en-us/download/internet-explorer.aspx)
+    * JavaScript animations and certain container CSS does not seem to work on this browser.
+
+### Mobile Devices Tested
+
+* **Motorola Moto G4**
+    * The hamburger menu bar seems to pop out on the right a little bit. Not affecting overall view.
+* **Samsung Galaxy S5**
+    * The hamburger menu bar seems to pop out on the right a little bit. Not affecting overall view.
+* **Google Pixel 2**
+    * Mobile responsiveness works well on this device.
+* **Google Pixel 2 XL**
+    * Mobile responsiveness works well on this device.
+* **iPhone 5/SE**
+    * The hamburger menu bar seems to pop out on the right more than usual. Content still readable.
+* **iPhone 6/7/8**
+    * Mobile responsiveness works well on this device.
+* **iPhone 6/7/8 Plus**
+    * Mobile responsiveness works well on this device.
+* **iPhone X**
+    * Mobile responsiveness works well on this device.
+* **iPad**
+    * Mobile responsiveness works well on this device. Hamburger menu bar a little out of view.
+* **iPad Pro**
+    * Mobile responsiveness works well on this device. 
+* **Surface Duo**
+    * Mobile responsiveness works well on this device.
+* **Samsung Galaxy Fold**
+    * Many box positioning and the hamburger menu does not seem to work well with this device.
 
 ## Credits
 
@@ -100,20 +133,6 @@ These are the browsers which I used to test my project.
 
 1. This YouTube video has taught me how to make my very own animated Hamburger menu bar.
 [Animated Hamburger Menu](https://www.youtube.com/watch?v=nME3fE3c9Qw) 
-
-
-### Acknowledgements
-1. The website that inspired me to start this website project is none other than the **Official Chainsmokers** website.
-[The Chainsmokers Website](https://www.thechainsmokers.com/)
-
-1. On the music webpage of The Chainsmokers' website, I gained some inspiration to have embedded Spotify playlists. 
-[The Chainsmokers Website - Music](https://www.thechainsmokers.com/music)
-
-1. I received inspiration from the **Panic! At the Disco website**. I really like their idea on having a full on page background as their home page and when you click on the down arrow, it does a scroll effect. I think it looks very neat. 
-[Panic! At The Disco Website](https://panicatthedisco.com/)
-
-1. This website has helped me with commands that I had trouble with and also taught me many ways to create interesting HTML & CSS content.
-[W3School](https://www.w3schools.com/)
 
 ### Media & Sources
 The following links below are all the links of social medias, images, albums etc.. that I have made use of throughout my website.
@@ -163,5 +182,15 @@ The following links below are all the links of social medias, images, albums etc
 [The Chainsmokers Webstore](https://store.thechainsmokers.com/)
 [The Chainsmokers Shows](https://go.seated.com/notifications/welcome/f94f8391-d48f-42c7-92f5-efc725a6bfef)
 
-**Wireframe Link:**
-[Website Wireframe](https://drive.google.com/drive/folders/1PbVvmoEvncIFNeUJolGCteF99jDvA-P1?usp=sharing)
+### Acknowledgements
+1. The website that inspired me to start this website project is none other than the **Official Chainsmokers** website.
+[The Chainsmokers Website](https://www.thechainsmokers.com/)
+
+1. On the music webpage of The Chainsmokers' website, I gained some inspiration to have embedded Spotify playlists. 
+[The Chainsmokers Website - Music](https://www.thechainsmokers.com/music)
+
+1. I received inspiration from the **Panic! At the Disco website**. I really like their idea on having a full on page background as their home page and when you click on the down arrow, it does a scroll effect. I think it looks very neat. 
+[Panic! At The Disco Website](https://panicatthedisco.com/)
+
+1. This website has helped me with commands that I had trouble with and also taught me many ways to create interesting HTML & CSS content.
+[W3School](https://www.w3schools.com/)
